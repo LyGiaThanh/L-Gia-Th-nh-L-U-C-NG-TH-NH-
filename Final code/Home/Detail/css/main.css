@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #ffffff;
+    --orange-color: #FF5C00;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: var(--white-color);
+    overflow-x: hidden;
+}
+
+.header-section{
+
+    width: 100%;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--white-color);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding-top: 20px;
+}
+
+.navbar ul li a:hover {
+    color:#FF5C00;
+}
+
+
+.tool-menu span{
+    text-decoration: none;
+    margin: 0 20px;
+   
+}
+
+.search-btn, .sign-in a, .language {
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+}
+
+.header-text {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.header-text .big-text {
+    font-weight: bold;
+    font-size: 300px;
+    color: rgba(255,255,255,0.2);
+}
+
+.title-text-area, .header-text-destination .title-text-area {
+    display: flex;
+    width: 100%;
+    top: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    z-index: 4 !important;
+}
+
+.header-text .title-text  {
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--white-color);
+}
+
+.header-text .small-text,.header-text-destination .small-text {
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+.header-text a, .header-text-destination a {
+    padding: 10px 55px 15px 55px;
+    background-color: var(--orange-color);
+    text-decoration: none;
+    color: var(--white-color);
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 50px;
+}
+
+.col-lg-5 a {
+    background-color: #FF5C00;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body h2{
+    color: #FF5C00;
+}
+
+.card-body p{
+    color: #000000;
+}
+
+.card-footer a {
+    background-color: #FF5C00;
+    border: none;
+}
+
+
+
+
+
+
+.footer {
+    height: 370px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.footer_1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_1 ul li {
+    list-style-type: none;
+    padding-bottom: 10%;
+}
+
+.footer_1 ul li a:hover {
+    color: var(--orange-color);
+}
+
+.footer_1{
+    margin-left: 60px;
+}

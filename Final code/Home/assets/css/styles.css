@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #ffffff;
+    --orange-color: #FF5C00;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: var(--white-color);
+    overflow-x: hidden;
+}
+
+.header-section{
+    height: 750px;
+    width: 100%;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--white-color);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding-top: 20px;
+}
+
+.navbar ul li a:hover {
+    color:#FF5C00;
+}
+
+
+.tool-menu span{
+    text-decoration: none;
+    margin: 0 20px;
+   
+}
+
+.search-btn, .sign-in a, .language {
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+}
+
+.header-text {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.header-text .big-text {
+    font-weight: bold;
+    font-size: 300px;
+    color: rgba(255,255,255,0.2);
+}
+
+.title-text-area, .header-text-destination .title-text-area {
+    display: flex;
+    width: 100%;
+    top: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    z-index: 4 !important;
+}
+
+.header-text .title-text  {
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--white-color);
+}
+
+.header-text .small-text,.header-text-destination .small-text {
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+.header-text a, .header-text-destination a {
+    padding: 10px 55px 15px 55px;
+    background-color: var(--orange-color);
+    text-decoration: none;
+    color: var(--white-color);
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 50px;
+}
+
+.tour-section {
+    background-color: rgb(22, 22, 22);
+    padding: 70px 0;
+}
+
+.tour-header .title-text{
+    font-weight: bold;
+    font-size: 50px !important;
+    color: var(--white-color);
+}
+
+.tour-info {
+    margin-top: 30px;
+}
+
+.tour-header {
+    text-align: center;
+}
+
+.tour-text {
+    padding: 40px 40px;
+    
+}
+
+.tour-image {
+    padding: 0px 40px;
+    overflow: hidden;
+}
+
+.tour-image img {
+    width: 650px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.destination-section {
+    background-image: url(../images/taipei-taiwan-place-airport-chung-cheng-age-reading-hall.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text-destination {
+    width: 100%;
+    margin-top: 10%;
+    position: absolute;
+    z-index: 4;
+}
+
+.header-text-destination .title-text  {
+    font-weight: bold;
+    font-size: 50px !important;
+    color: var(--white-color);
+}
+
+.explore-section {
+    padding: 50px 0px;
+}
+
+.explore-header {
+    display: flex;
+}
+
+.explore-header-menu {
+    padding: 30px 40px;
+}
+
+.tmp-header {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.arrow-menu {
+    font-size: 30px;
+}
+
+.arrow-menu i {
+    margin: 0px 15px;
+}
+
+.explore-list {
+    margin: 0px 25px;
+}
+
+.explore-item {
+    max-width: 300px;
+    align-items: center;
+    position: relative;
+}
+
+.explore-item-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.explore-item img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 15px;
+}
+
+.text-header-overlay {
+    color: rgba(255,255,255,0.5);
+}
+
+.about-content {
+    max-width: 300px;
+}
+
+.about-header .title-about{
+    font-weight: bold;
+    font-size: 50px !important;
+    color: var(--white-color);
+}
+
+
+.about-us {
+    margin-bottom: 40px;
+}
+
+.about-us-header-area {
+    padding: 0px 40px 40px 40px;
+}
+
+.about-content {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+}
+
+.about-video-travel{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blog {
+    padding: 40px 40px;
+}
+
+.blog-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.blog-date {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
+    width: 70px;
+    text-align: center;
+}
+
+.main-date {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.read-detail {
+    color: var(--orange-color);
+    text-decoration: none;
+}
+
+.blog-canlendar > div {
+    margin: 15px 0px;
+}
+
+.blog-content {
+    margin: 20px 0px;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.see-new {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 35px 15px 35px;
+    background-color: var(--orange-color);
+    text-decoration: none;
+    color: var(--white-color);
+    border-radius: 50px;
+}
+
+
+
+.footer {
+    height: 370px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.footer_1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_1 ul li {
+    list-style-type: none;
+    padding-bottom: 10%;
+}
+
+.footer_1 ul li a:hover {
+    color: var(--orange-color);
+}
+
+.footer_1{
+    margin-left: 60px;
+}

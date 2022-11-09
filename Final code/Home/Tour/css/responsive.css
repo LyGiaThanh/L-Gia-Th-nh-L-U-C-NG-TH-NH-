@@ -1,0 +1,18 @@
+@media screen and (max-width: 568px){
+    .big-text {
+        display: none;
+    }
+    .blog-2 .card {
+        height: 350px;
+    }
+    .footer_1{
+        margin-left: -31px;
+      }
+      .header-text .title-text{
+          font-size: 45px;
+      }
+      .header-text .small-text, .header-text-destination .small-text{
+          width: 275px;
+          padding-bottom: 40px;
+      }
+}
